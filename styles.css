@@ -20,18 +20,19 @@ header {
 }
 
 header h1 {
-    font-size: 2.5em;
-    color: #4c2c69;
+    font-size: 4em;
+    color: #141314;
+    font-family: 'Great Vibes', cursive;
 }
 
 header h2 {
     font-size: 1.5em;
-    color: #6b567c;
+    color: #17141a;
 }
 
 /* Navigation styles */
 nav {
-    background-color: #4c2c69;
+    background-color: #245b37;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
