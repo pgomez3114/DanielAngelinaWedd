@@ -134,7 +134,7 @@ footer {
 
 .collapsible {
   background-color: #245b37;;
-  color: rgb(55, 88, 73);
+  color: rgb(247, 247, 247);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -145,7 +145,7 @@ footer {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #2aba1f;
 }
 
 .collapsible:after {
