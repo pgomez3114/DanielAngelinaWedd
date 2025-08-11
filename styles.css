@@ -21,13 +21,13 @@ header {
 
 header h1 {
     font-size: 4em;
-    color: #141314;
+    color: #245b37;
     font-family: 'Great Vibes', cursive;
 }
 
 header h2 {
     font-size: 1.5em;
-    color: #17141a;
+    color: #245b37;
 }
 
 /* Navigation styles */
@@ -75,7 +75,7 @@ section {
 }
 
 section h2 {
-    color: #4c2c69;
+    color: #245b37;;
 }
 
 p {
@@ -110,7 +110,7 @@ textarea {
 }
 
 button {
-    background-color: #4c2c69;
+    background-color: #245b37;;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -204,7 +204,7 @@ section {
 }
 
 button {
-    background-color: #4c2c69;
+    background-color: #245b37;;
     color: #fff;
 }
 
