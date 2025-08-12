@@ -1,4 +1,4 @@
-const APP_URL = "https://script.google.com/macros/s/AKfycbz46g7RzG1n3oish1-imvCE--cYOM01lcGhzo6gCEJFbbo4nJjNpGn55mx4--UOSO5oZQ/exec";
+const APP_URL = "https://script.google.com/macros/s/AKfycbwqDatDz9XfyjH4Fw4WKv0-kfhcU1xRYfbLA0zdJaHvg34Xy0ANaTtnJ0CmOnmkxiLfyw/exec";
 
 let guests = [];
 
