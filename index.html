@@ -16,6 +16,7 @@
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 
   <body>
@@ -115,7 +116,23 @@
       </section>
       
       <section id="rsvp">
-       <div id="rsvp-widget"></div>
+       <div class="rsvp-container">
+        <h1>RSVP</h1>
+        <p class="subtitle">Please search for your name to RSVP</p>
+
+        <input type="text" id="searchName" placeholder="Enter your name...">
+        <button id="searchBtn">Search</button>
+
+        <div id="results"></div>
+
+        <div id="rsvpForm" style="display:none;">
+          <h2>Select Guests Attending</h2>
+          <form id="attendanceForm">
+            <div id="guestList"></div>
+            <button type="submit" class="submit-btn">Submit RSVP</button>
+          </form>
+        </div>
+      </div>
       </section>
     </main>
     <script>
@@ -135,4 +152,7 @@
       });
     }
 </script>
+
+<script src="script.js"></script>
+
 </body>
