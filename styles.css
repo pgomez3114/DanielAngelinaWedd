@@ -168,6 +168,28 @@ footer {
   background-color: #f1f1f1;
 }
 
+.rsvp-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+#results {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+#rsvpForm {
+  margin-top: 20px;
+}
+
+#guestList {
+  margin-bottom: 15px;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     nav ul {
@@ -182,6 +204,9 @@ footer {
     .image-grid {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
+
+    .rsvp-container {
+    padding: 15px;
 }
 
 /* Additional styles */
